@@ -3,12 +3,12 @@
 <meta charset="utf-8">
 <meta http-equiv="Pragma" content="public">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>D×2 真・女神転生 リベレーション 「〇〇を作るには」</title>
+<title>D×2 真・女神転生 リベレーション 「〇〇は何の素材になるか」</title>
 <link rel = "stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
 integrity="sha384-7tIwW4quYS2+TZCwuAPnUY+dRqg28ylzlIoVXAwpfiTs+CMKsAOSsWYQ96c/ZnV+"
 crossorigin="anonymous">
-<link rel="stylesheet" href="css/style.css">
+<link rel = "stylesheet" href="css/style.css">
 
 <link rel="stylesheet"
 href="https://code.jquery.com/ui/1.12.1/themes/ui-darkness/jquery-ui.css"
@@ -21,22 +21,22 @@ crossorigin="anonymous"></script>
 <script src ="./lib/jquery-ui.min.js"></script>
 
 <script src="js/church-interfaces.js"></script>
-<script src="js/church-data.js"></script>
 <script src="js/church-price.js"></script>
-<script src="js/summon-search.js"></script>
+<script src="js/church-data.js"></script>
+<script src="js/scrifice-search.js"></script>
 <script src="js/daemon-disp.js"></script>
 <script src="js/d2-view.js"></script>
 <header>
-	<h1>「〇〇を作るには」(Dx2 v1.3.0 対応)</h1>
+	<h1>「〇〇は何の素材になるか」(Dx2 v1.3.0 対応)</h1>
 	<nav>
 		<ul>
-			<li><span><img src="img/ic-index.png" alt="">〇〇を作るには</span></li>
-			<li><a href="index2.html"><img src="img/ic-index2.png" alt="">〇〇は何の素材になるか</a></li>
+			<li><a href="./index.html"><img src="img/ic-index.png" alt="">〇〇を作るには</a></li>
+			<li><span><img src="img/ic-index2.png" alt="">〇〇は何の素材になるか</span></li>
       <li><span><a href = 
-    'https://github.com/D2megatengattai/d2_test/blob/master/README.md' target="_blank"
+    'https://github.com/yaemon/d2/blob/master/README.md' target="_blank"
          ><img src="img/ic-gh.png" alt="GitHub">このデータ改訂版について</a></li>
-		</ul>
-	</nav>
+ 		</ul>
+  </nav>
 </header>
 
 <div id="search-demon">
@@ -47,19 +47,9 @@ crossorigin="anonymous"></script>
 		<li id="info-grade">Grade :<span>&nbsp;</span></li>
 		<li id="info-rare">Rare :<span>&nbsp;</span></li>
 	</ul>
-	<div id="info-prop">
-		<ul>
-			<li><img src="img/ic-prop_01.png" alt="物理:"><span>-</span></li>
-			<li><img src="img/ic-prop_02.png" alt="火炎:"><span>-</span></li>
-			<li><img src="img/ic-prop_03.png" alt="氷結:"><span>-</span></li>
-			<li><img src="img/ic-prop_04.png" alt="電撃:"><span>-</span></li>
-			<li><img src="img/ic-prop_05.png" alt="衝撃:"><span>-</span></li>
-			<li><img src="img/ic-prop_06.png" alt="破魔:"><span>-</span></li>
-			<li><img src="img/ic-prop_07.png" alt="呪殺:"><span>-</span></li>
-		</ul>
-	</div>
+	<div id="search-howto"><img src="img/ic-howto.png" alt=""></div>
 	<div id="search-remove">
-		<p>除外したい組み合わせ :</p>
+		<p>除外したい素材 :</p>
 		<ul>
 			<li><input type="checkbox" id="rare1"><label for="rare1">★1</label></li>
 			<li><input type="checkbox" id="rare2"><label for="rare2">★2</label></li>
