@@ -37,8 +37,7 @@
 [r-jp氏]によるものです。
 
 ## Contact
-プロジェクトの [Issue](https://github.com/yaemon/d2/issues)
-からご報告いただければ確実に届きます。
+何かあればTwitterまで(https://twitter.com/Evarett_K)
 
 ## Licence
 MIT License に準ずるものとします
